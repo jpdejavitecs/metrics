@@ -1,1 +1,3 @@
 # metrics
+
+![](prometheus-config.png)
