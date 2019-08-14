@@ -36,7 +36,7 @@ scrape_configs:
   - job_name: 'node'
     scrape_interval: 5s
     static_configs:
-      - targets: ['174.138.50.147:9100']
+      - targets: ['127.0.0.1:9100']
 EOF
 chown prometheus:prometheus /etc/prometheus/prometheus.yml
 cat << EOF > /etc/systemd/system/prometheus.service
